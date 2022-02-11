@@ -43,3 +43,6 @@ target 'ProjectName' do
     react_native_post_install(installer)
   end
 end
+target 'OneSignalNotificationServiceExtension' do
+  pod 'OneSignalXCFramework', '>= 3.0', '< 4.0'
+end
